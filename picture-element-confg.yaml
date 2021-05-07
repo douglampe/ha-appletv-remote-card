@@ -1,0 +1,67 @@
+type: picture-elements
+elements:
+  - type: service-button
+    service: remote.send_command
+    service_data:
+      entity_id: remote.apple_tv
+      command: up
+    style:
+      top: 20%
+      left: 50%
+  - type: service-button
+    service: remote.send_command
+    service_data:
+      entity_id: remote.apple_tv
+      command: down
+    style:
+      top: 52.5%
+      left: 50%
+  - type: service-button
+    service: remote.send_command
+    service_data:
+      entity_id: remote.apple_tv
+      command: left
+    style:
+      top: 36%
+      left: 20%
+  - type: service-button
+    service: remote.send_command
+    service_data:
+      entity_id: remote.apple_tv
+      command: right
+    style:
+      top: 36%
+      left: 80%
+  - type: service-button
+    service: remote.send_command
+    service_data:
+      entity_id: remote.apple_tv
+      command: select
+    style:
+      top: 36%
+      left: 50%
+  - type: service-button
+    service: remote.send_command
+    service_data:
+      entity_id: remote.apple_tv
+      command: menu
+    style:
+      top: 86%
+      left: 50%
+  - type: service-button
+    service: remote.send_command
+    service_data:
+      entity_id: remote.apple_tv
+      command: home
+    style:
+      top: 86%
+      left: 84%
+  - type: service-button
+    service: remote.send_command
+    service_data:
+      entity_id: remote.apple_tv
+      command: menu
+    style:
+      top: 86%
+      left: 16%
+image: 'https://github.com/douglampe/ha-appletv-remote-card/raw/master/apple-tv-remote.png'
