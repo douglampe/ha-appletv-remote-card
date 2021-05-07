@@ -52,7 +52,7 @@ elements:
     service: remote.send_command
     service_data:
       entity_id: remote.apple_tv
-      command: home
+      command: top_menu
     style:
       top: 86%
       left: 84%
@@ -60,7 +60,7 @@ elements:
     service: remote.send_command
     service_data:
       entity_id: remote.apple_tv
-      command: menu
+      command: select
     style:
       top: 86%
       left: 16%
